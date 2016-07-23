@@ -21,5 +21,7 @@ from main import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^sabado-de-ubuntu/$',views.Sabado.as_view()),
-    url(r'^otra-ruta/$',views.Otra.as_view()),  
+    url(r'^otra-ruta/$',views.Otra.as_view()),
+
+
 ]
